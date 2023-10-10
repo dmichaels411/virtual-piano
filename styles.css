@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+svg g {
+    cursor: pointer;
+}
+
+svg g text {
+    pointer-events: none;
+}
+
+.key-selected {
+    fill: green;
+}
+
+#white-key-paths {
+    stroke: black;
+    stroke-width: 10;
+    fill: white;
+}
+
+#black-key-paths {
+    stroke: black;
+    stroke-width: 10;
+    fill: black;
+}
+
+#note-characters {
+    font-size: 180px;
+    font-family: monospace;
+}
+
+#key-characters {
+    font-size: 100px;
+    font-family: serif;
+}
+
+#key-characters-sharps {
+    stroke: white;
+    fill: white;
+    font-size: 100px;
+    font-family: serif;
+}
